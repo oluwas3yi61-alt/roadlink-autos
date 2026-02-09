@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RoadLink Autos</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="bg-animation"></div>
+
+<header>
+  <div class="logo">🚗 RoadLink Autos</div>
+  <nav>
+    <a href="#cars">Cars</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Drive Your Dream Car Today</h1>
+  <p>Premium cars. Nationwide delivery. Trusted service.</p>
+</section>
+
+<section id="cars" class="cars">
+  <h2>Available Cars</h2>
+
+  <div class="car-grid">
+
+   <div class="car-grid">  <!-- Audi -->
+  <div class="car-card">
+    <h3>Audi A4</h3>
+    <p>Model: 2021</p>
+    <p>Color: Black</p>
+    <p>Price: ₦27,000,000</p>
+    <button onclick="orderCar('Audi A4 2021 Black')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Audi Q7</h3>
+    <p>Model: 2022</p>
+    <p>Color: White</p>
+    <p>Price: ₦45,000,000</p>
+    <button onclick="orderCar('Audi Q7 2022 White')">Order</button>
+  </div>
+
+  <!-- Volkswagen -->
+  <div class="car-card">
+    <h3>Volkswagen Tiguan</h3>
+    <p>Model: 2021</p>
+    <p>Color: Blue</p>
+    <p>Price: ₦23,500,000</p>
+    <button onclick="orderCar('Volkswagen Tiguan 2021 Blue')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Volkswagen Passat</h3>
+    <p>Model: 2020</p>
+    <p>Color: Silver</p>
+    <p>Price: ₦19,500,000</p>
+    <button onclick="orderCar('Volkswagen Passat 2020 Silver')">Order</button>
+  </div>
+
+  <!-- Chevrolet -->
+  <div class="car-card">
+    <h3>Chevrolet Malibu</h3>
+    <p>Model: 2021</p>
+    <p>Color: Red</p>
+    <p>Price: ₦18,900,000</p>
+    <button onclick="orderCar('Chevrolet Malibu 2021 Red')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Chevrolet Tahoe</h3>
+    <p>Model: 2022</p>
+    <p>Color: Black</p>
+    <p>Price: ₦41,000,000</p>
+    <button onclick="orderCar('Chevrolet Tahoe 2022 Black')">Order</button>
+  </div>
+
+  <!-- Peugeot -->
+  <div class="car-card">
+    <h3>Peugeot 3008</h3>
+    <p>Model: 2021</p>
+    <p>Color: Gray</p>
+    <p>Price: ₦17,000,000</p>
+    <button onclick="orderCar('Peugeot 3008 2021 Gray')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Peugeot 508</h3>
+    <p>Model: 2020</p>
+    <p>Color: White</p>
+    <p>Price: ₦15,800,000</p>
+    <button onclick="orderCar('Peugeot 508 2020 White')">Order</button>
+  </div>
+
+  <!-- Jeep -->
+  <div class="car-card">
+    <h3>Jeep Wrangler</h3>
+    <p>Model: 2022</p>
+    <p>Color: Green</p>
+    <p>Price: ₦39,000,000</p>
+    <button onclick="orderCar('Jeep Wrangler 2022 Green')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Jeep Grand Cherokee</h3>
+    <p>Model: 2021</p>
+    <p>Color: Black</p>
+    <p>Price: ₦36,500,000</p>
+    <button onclick="orderCar('Jeep Grand Cherokee 2021 Black')">Order</button>
+  </div>
+
+  <!-- Mazda -->
+  <div class="car-card">
+    <h3>Mazda CX-5</h3>
+    <p>Model: 2022</p>
+    <p>Color: Red</p>
+    <p>Price: ₦20,500,000</p>
+    <button onclick="orderCar('Mazda CX5 2022 Red')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Mazda 6</h3>
+    <p>Model: 2020</p>
+    <p>Color: Silver</p>
+    <p>Price: ₦17,200,000</p>
+    <button onclick="orderCar('Mazda 6 2020 Silver')">Order</button>
+  </div>
+
+  <!-- Subaru -->
+  <div class="car-card">
+    <h3>Subaru Forester</h3>
+    <p>Model: 2021</p>
+    <p>Color: White</p>
+    <p>Price: ₦19,900,000</p>
+    <button onclick="orderCar('Subaru Forester 2021 White')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Subaru Outback</h3>
+    <p>Model: 2022</p>
+    <p>Color: Blue</p>
+    <p>Price: ₦22,800,000</p>
+    <button onclick="orderCar('Subaru Outback 2022 Blue')">Order</button>
+  </div>
+
+  <!-- Toyota -->
+  <div class="car-card">
+    <h3>Toyota Corolla</h3>
+    <p>Model: 2021</p>
+    <p>Color: White</p>
+    <p>Price: ₦14,200,000</p>
+    <button onclick="orderCar('Toyota Corolla 2021 White')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Toyota Camry</h3>
+    <p>Model: 2020</p>
+    <p>Color: Black</p>
+    <p>Price: ₦18,000,000</p>
+    <button onclick="orderCar('Toyota Camry 2020 Black')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Toyota Highlander</h3>
+    <p>Model: 2022</p>
+    <p>Color: Silver</p>
+    <p>Price: ₦29,000,000</p>
+    <button onclick="orderCar('Toyota Highlander 2022 Silver')">Order</button>
+  </div>
+
+  <!-- Lexus -->
+  <div class="car-card">
+    <h3>Lexus RX 350</h3>
+    <p>Model: 2022</p>
+    <p>Color: Gray</p>
+    <p>Price: ₦28,000,000</p>
+    <button onclick="orderCar('Lexus RX 350 2022 Gray')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Lexus ES 350</h3>
+    <p>Model: 2021</p>
+    <p>Color: White</p>
+    <p>Price: ₦26,500,000</p>
+    <button onclick="orderCar('Lexus ES 350 2021 White')">Order</button>
+  </div>
+
+  <!-- Mercedes -->
+  <div class="car-card">
+    <h3>Mercedes Benz C300</h3>
+    <p>Model: 2021</p>
+    <p>Color: White</p>
+    <p>Price: ₦32,000,000</p>
+    <button onclick="orderCar('Mercedes Benz C300 2021 White')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Mercedes Benz E350</h3>
+    <p>Model: 2022</p>
+    <p>Color: Black</p>
+    <p>Price: ₦38,000,000</p>
+    <button onclick="orderCar('Mercedes Benz E350 2022 Black')">Order</button>
+  </div>
+
+  <!-- BMW -->
+  <div class="car-card">
+    <h3>BMW X5</h3>
+    <p>Model: 2021</p>
+    <p>Color: Blue</p>
+    <p>Price: ₦35,000,000</p>
+    <button onclick="orderCar('BMW X5 2021 Blue')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>BMW 530i</h3>
+    <p>Model: 2020</p>
+    <p>Color: Black</p>
+    <p>Price: ₦30,000,000</p>
+    <button onclick="orderCar('BMW 530i 2020 Black')">Order</button>
+  </div>
+
+  <!-- Honda -->
+  <div class="car-card">
+    <h3>Honda Accord</h3>
+    <p>Model: 2019</p>
+    <p>Color: Gray</p>
+    <p>Price: ₦15,500,000</p>
+    <button onclick="orderCar('Honda Accord 2019 Gray')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Honda CR-V</h3>
+    <p>Model: 2022</p>
+    <p>Color: Red</p>
+    <p>Price: ₦21,000,000</p>
+    <button onclick="orderCar('Honda CRV 2022 Red')">Order</button>
+  </div>
+
+  <!-- SUVs -->
+  <div class="car-card">
+    <h3>Range Rover Evoque</h3>
+    <p>Model: 2022</p>
+    <p>Color: Silver</p>
+    <p>Price: ₦42,000,000</p>
+    <button onclick="orderCar('Range Rover Evoque 2022 Silver')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Ford Explorer</h3>
+    <p>Model: 2020</p>
+    <p>Color: Red</p>
+    <p>Price: ₦22,000,000</p>
+    <button onclick="orderCar('Ford Explorer 2020 Red')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Hyundai Tucson</h3>
+    <p>Model: 2022</p>
+    <p>Color: White</p>
+    <p>Price: ₦19,000,000</p>
+    <button onclick="orderCar('Hyundai Tucson 2022 White')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Kia Sportage</h3>
+    <p>Model: 2021</p>
+    <p>Color: Black</p>
+    <p>Price: ₦17,500,000</p>
+    <button onclick="orderCar('Kia Sportage 2021 Black')">Order</button>
+  </div>
+
+  <!-- Nissan -->
+  <div class="car-card">
+    <h3>Nissan Altima</h3>
+    <p>Model: 2020</p>
+    <p>Color: Brown</p>
+    <p>Price: ₦16,800,000</p>
+    <button onclick="orderCar('Nissan Altima 2020 Brown')">Order</button>
+  </div>
+
+  <div class="car-card">
+    <h3>Nissan Rogue</h3>
+    <p>Model: 2021</p>
+    <p>Color: Silver</p>
+    <p>Price: ₦20,000,000</p>
+    <button onclick="orderCar('Nissan Rogue 2021 Silver')">Order</button>
+  </div>
+
+</div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>We sell quality vehicles and deliver across all states in Nigeria with trusted logistics and safe payment options.</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>09158026067
+  <p>No 15 Oyekan Street, Off ajayi crescent, abuja, Nigeria</p>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
